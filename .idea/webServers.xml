@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3e9ba7b6-4445-4d61-84ae-bfe4a2a2dc98" name="boi">
+        <fileTransfer rootFolder="/home/c/ch62925/sex-33/public_html/" accessType="SFTP" host="87.249.38.16" port="22" sshConfigId="5476eff8-a1d6-4f6f-8499-3995df1a0e45" sshConfig="ch62925@87.249.38.16:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

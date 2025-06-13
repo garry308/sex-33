@@ -1,0 +1,172 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+/* Examples (uncomment to use):*/
+
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+
+#header .middle-h-row .logo_wrapp .logo {
+	max-width: 430px;
+}
+@media (max-width: 1024px){
+	#header .middle-h-row .basket_wrapp {
+		display: none;
+	}
+}
+@media (max-width: 767px){
+	#header .middle-h-row .basket_wrapp {
+		display: table-cell;
+	}
+}
+body .menu_top_block.catalog_block .dropdown> li > a {
+	font-size: 14px;
+}
+
+.menu_top_block.catalog_block .dropdown>li.full>.dropdown>li>a,
+header .menu_top_block.catalogfirst li.full>.dropdown>li>a,
+.menu_top_block li .dropdown>li>a {
+	font-size: 14px;
+}
+
+.brands_list_custom li {
+	width: 49%;
+}
+
+header .menu_top_block>li.catalog>a {
+	background-color: #424f60;
+}
+
+.header_wrap #header .catalog_menu ul.menu > li > a {
+	color: #efb509;
+}
+
+.menu_top_block.catalog_block .dropdown>li.full>a span,
+.menu_top_block.catalog_block .dropdown>li.full>a span:hover,
+.left_menu li a span,
+body .menu_top_block li .dropdown>li>a:not(.dark_lnik) span{
+	background: #efb509;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+header .menu_dark .wrap_menu {
+	background: black;
+}
+header .menu_top_block>li.catalog>a {
+	background: black;
+}
+
+header .menu_top_block li.catalog>.dropdown>li>a,
+body .menu_top_block.catalog_block .dropdown >li.full>a,
+.left_menu > li> a {
+	background: black;
+}
+
+header .menu_top_block li.catalog>.dropdown>li>a:hover,
+body .menu_top_block.catalog_block .dropdown >li.full>a:hover,
+.left_menu > li> a:hover {
+	background: black;
+}
+
+header .menu_top_block li.catalog>.dropdown>li:hover>a,
+header .menu_top_block li.catalog>.dropdown>li.current>a,
+.menu_top_block.catalog_block .dropdown >li.full:hover>a {
+	background: black;
+}
+
+.middle_phone .phone_wrap .icons{
+	background-color: black;
+}
+
+header .menu_colored .menu_top_block>li.current>a,header
+.menu_dark .menu_top_block.menu>li.current>a,
+header .menu_dark .menu_top_block.menu>li.current:hover>a,
+.menu_top_block.catalog_block .dropdown>li.full:hover>a:before,
+.menu_top_block.catalog_block .dropdown>li.full.current>a,
+header .menu_top_block li.catalog>.dropdown>li.current>a,
+.left_menu>li.current>a,.left_menu>li:hover>a:before {
+	background: black;
+}
+
+.menu_top_block li .dropdown {
+	background: #3e484e;
+}
+
+header .menu_top_block li .dropdown>li>a,
+header .menu_top_block li:not(.catalog) .dropdown>li.current>a:not(.section),
+header .menu_top_block li.catalog>.dropdown>li>a:before {
+	background: #efb509;
+}
+
+.top_slider_wrapp .flexslider .slides>li {
+	background-repeat: no-repeat;
+	height: 214px;
+}
+
+.top_slider_wrapp .flexslider, .top_slider_wrapp .flexslider .slides>li, .top_slider_wrapp .flexslider .slides>li td {
+	height: 214px;
+}
+
+.catalog_section_list .section_item li.name a span {
+	font-size: 18px;
+	line-height: 21px;
+	color: #F4A900;
+}
+
+.image_wrapper_block img {
+	width: 100%;
+}
+
+.tabs_slider .catalog_item .footer_button {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+.catalog_item .item-title a span {
+	max-height: 40px;
+}
+.catalog .item_wrap:not(.touch), .catalog .item_wrap {
+	z-index: 1;
+	box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-moz-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-o-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-webkit-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+}
+.catalog_block .item_info {
+	margin: auto;
+	width: 171px;
+}
+
+.top_slider_wrapp .slides li {
+	background-size: contain !important;
+	background-repeat: no-repeat;
+}
+
+.form-control.captcha-row.clearfix {
+	display: none;
+}
+
+.catalog_section_list .section_item {
+	z-index: 1;
+	box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-moz-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-o-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-webkit-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+}
+
+.start_promo .item {
+	z-index: 1;
+	box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-moz-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-o-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+	-webkit-box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.75)!important;
+}
+
